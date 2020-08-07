@@ -5,11 +5,11 @@ const fi = (function() {
     },
 
     each: function() {
-
+      
     },
 
     map: function() {
-
+      arguments
     },
 
     reduce: function() {
@@ -25,3 +25,4 @@ const fi = (function() {
 })()
 
 fi.libraryMethod()
+fi.each(arguments)
